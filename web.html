@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Trends</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop" onclick="Shops()">Shops</a>
+                    <a id="blog" onclick="Blogs()">Blog</a>
+                    <a id="about" onclick="Abouts()"> About</a>
+                    <a id="contact" onclick="Contacts()">Contact</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!-- ---------main page--------------- -->
+         <div class="main">
+            <div class="mainText">
+                <h2>Trends</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>Grab Your Favourite Styles Ranging from Clothing, Footwear And Accessories,<br> Now  availaible at Trends.</p>
+                <button>Explore</button>
+            </div>
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""  id="front-img">
+         </div>
+
+
+        <!-- cards--------------------- -->
+         <div class="trend">
+            <div class="head">
+                <h1>Trends <span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img class="pic"    src="https://m.media-amazon.com/images/I/618LbDYIVRL._AC_UL480_FMwebp_QL65_.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Men Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+          
+                <div class="crd">
+                    <img  class="pic" src="https://m.media-amazon.com/images/I/51RgKA1pC1L._AC_UL480_FMwebp_QL65_.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Men Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img  class="pic" src="https://m.media-amazon.com/images/I/61wyfIo5XvL._AC_UL480_FMwebp_QL65_.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Men Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                
+         </div>
+   </div>
+
+<!-- women wear---------- -->
+<div class="trend" id="trendSec">
+    <div class="head">
+        <h1>Trends <span>Women's Wear</span></h1>
+    </div>
+    <div class="card">
+        <div class="crd">
+            <img class="pic" src="https://m.media-amazon.com/images/I/71NR4MwqkjL._AC_UL480_FMwebp_QL65_.jpg" alt="" onclick="show(this)">
+            <div class="crdText">
+                <h2>Women Trending Top's</h2>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i><br>
+                <button>Add to cart</button>
+            </div>
+        </div>
+    
+   
+        <div class="crd">
+            <img class="pic" src="https://m.media-amazon.com/images/I/51STzgHk8LL._AC_UL480_FMwebp_QL65_.jpg" alt="" onclick="show(this)">
+            <div class="crdText">
+                <h2>Women Trending Top's</h2>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i><br>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        
+        <div class="crd">
+            <img class="pic"  src="https://m.media-amazon.com/images/I/5109brveJKL._AC_UL480_FMwebp_QL65_.jpg" alt="" onclick="show(this)">
+            <div class="crdText">
+                <h2>Women Trending Top's</h2>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i><br>
+                <button>Add to cart</button>
+            </div>
+        </div>
+    </div>    
+ </div>
+
+ <!-- about------ -->
+
+ <div class="about">
+    <div class="aboutus">
+        <h1>#KnowUs</h1>
+        <p>If you would like to experience the best of online shopping for men, women and kids in India, you are at the right place.</p>
+    </div>
+    <div class="me">
+        <img src="https://static.vecteezy.com/system/resources/previews/006/584/649/non_2x/illustration-graphic-cartoon-character-of-home-study-free-vector.jpg" alt="">
+        <div class="aboutText">
+            <h1>Who we are??</h1>
+            <p>Trends is one of the unique online shopping sites in India where fashion is accessible to all.You can get your hands on the trendiest style every season in western wear. You can also avail the best of ethnic fashion during all Indian festive occasions. You are sure to be impressed with our seasonal discounts on footwear, trousers, shirts, backpacks and more. The end-of-season sale is the ultimate experience when fashion gets unbelievably affordable.</p>
+        </div>
+    </div>
+ </div>
+
+ <!-- contact---- -->
+   
+ <div class="contact">
+    <div class="contactus">
+        <h1>#Let's Connect</h1>
+        <p>We are here to help you. Please Log In, if you have queries related to your recent purchases.</p>
+    </div>
+    <div class="contactMe">
+        <div class="contactText">
+            <h1>Visit Our Office or contact <br>
+                 Us Today</h1>
+            <p>Address: Dablin Park, England, New York</p>
+            <p>Contact: dumiemail@gmail.com</p>
+            <p>Number: XXXXXXX678</p>
+        </div>
+        <img src="https://media.istockphoto.com/id/1857065907/photo/global-connections.webp?b=1&s=170667a&w=0&k=20&c=VXpbToqleoKfFAT9ZhOUzi68gHsYtkJl_WUbU1B4W44=" alt="">
+    </div>
+
+      <div class="form">
+        <h1>Connect with Us. Fill form</h1>
+        <input type="text" placeholder="Enter your First Name"> <br>
+        <input type="text" placeholder="Enter your Last Name"> <br>
+        <input type="text" placeholder="Enter your Email"> <br>
+        <input type="text" placeholder="Enter your Number"> <br>
+        <input type="text" placeholder="Enter your Address"> <br>
+        <button>Submit</button>
+      </div>
+ </div> 
+
+ <!-- carttttttt -->
+    <div class="cart">
+        <img id="newImg" src="" alt="">
+        <div class="cartText">
+            <h1>Trends Offer : Shop Now</h1>
+            <h2>Special Price</h2>
+            <h2>&#8377;625</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="btn">
+            <button>Buy Now</button>
+            <button onclick="addtoCart()">Add to Cart</button>
+        </div>
+        <button class="back" >Back</button>
+        </div>
+    </div>
+
+<!-- blogg---------------------- -->
+
+<div class="trends">
+    <div class="head">
+        <h1>Trends <span> Wearing</span></h1>
+    </div>
+    <div class="card">
+        <div class="blog">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <div class="blogText">
+                <h2>Trending Girl Clothes</h2>
+                <p>Find about the lessons of womens clothing and the cardinal rules of dressing up in relation to your body shape as you read on.
+                </p>
+                <a href="https://www.musingsbymadison.com/category/style/page/2/">Read more</a>
+            </div>
+        </div>
+
+        <div class="blog">
+            <img src="https://m.media-amazon.com/images/I/71kE75JMKjL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+            <div class="blogText">
+                <h2>Trending Boys Clothes</h2>
+                <p>As men, we are extremely blessed to have simple choices: pants, shirts, t-shirts, shoes, socks, and jackets. You need a few of each of these to create great impact.</p>
+                <a href="https://www.apetogentleman.com/">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- letter -->
+
+<div class="letter">
+    <div class="letterText">
+        <h1>SignUp for NewsLetter</h1>
+        <p>Fashion is a term used interchangeably to describe the creation of clothing, footwear, accessories, cosmetics, and jewellery.To know about it <u>SignUp</u></p>
+    </div>
+    <div class="inp">
+        <input type="text" placeholder="Enter Your Email">
+        <button>Sign Up</button>
+    </div>
+</div>
+
+<!-- footer----- -->
+
+<div class="footer">
+    <div class="footerText">
+        <h2>Trends</h2>
+        <p>Service</p>
+        <p>Customer</p>
+        <p>Satisfaction</p>
+        <p></p>
+    </div>
+
+    
+    <div class="footerText">
+        <h2>About Us</h2>
+        <p>Address: Lorem ipsum dolor sit amet.</p>
+        <p>Service</p>
+        <p>Customer</p>
+        <p>Careers</p>
+    </div>
+
+    <div class="footerText">
+        <h2>Connect with Us</h2>
+        <p>FaceBook</p>
+        <p>Twitter</p>
+        <p>Instagram</p>
+        <p>Telegram</p>
+    </div>
+
+    <div class="footerText">
+        <h2>Let Us Help You</h2>
+        <p>Your Account</p>
+        <p>Returns Centre</p>
+        <p>Recalls and Product Safety Alerts</p>
+        <p>Help</p>
+    </div>
+</div>
+
+
+
+
+
+</div>
+
+    <script src="web.js"></script>
+</body>
+</html>
